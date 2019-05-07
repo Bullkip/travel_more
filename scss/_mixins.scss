@@ -1,0 +1,17 @@
+@mixin tr{
+	transition: all .4s linear;
+}
+
+@mixin myPos($top: 50%, $left: 50%, $tx:-50%,$ty:-50% ) {
+	position: absolute;
+	top: $top;
+	left: $left;
+	transform: translate($tx, $ty);
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder { @content; }
+  &:-moz-placeholder           { @content; }
+  &::-moz-placeholder          { @content; }
+  &:-ms-input-placeholder      { @content; }  
+}
