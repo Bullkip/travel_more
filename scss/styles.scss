@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Aleo|Josefin+Sans:400,700');
+
 @import 'normalize';
 @import 'mixins';
+
+$text-color:#FFF;
 
 * {
 	box-sizing: border-box;
@@ -11,9 +15,89 @@ html {
 }
 
 body {
-	/* font-family: ''; */
-	font-size: 1.8rem;
+	font-family: 'Josefin Sans',sans-serif;
+	font-size: 1.6rem;
 	line-height: 1.6;
-	color: #333;
+	color: $text-color;
 	min-height: 100%;
+}
+
+.container {
+	max-width: 1100px;
+	width: 75%;
+	margin: 0 auto;
+	&--header{}
+	&--menu{}
+}
+
+.section {
+	text-align: left;
+	padding: 0px;
+	&--fullscreen{
+		min-height:100vh;
+		text-align: center;
+		padding-top: 29rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	&--bg{
+		background-color: #5474fd;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	&__title{
+		text-transform: uppercase;
+		&--h1{
+			margin: 2rem 0 0;
+			font-size: 4.8rem;
+			line-height: 1;
+			font-weight: 700;
+			letter-spacing: 12px;
+		}
+	}
+	&__subtitle{
+		font-size: 2.2rem;
+		letter-spacing: 9px;
+		margin-bottom: 5.5rem;
+	}
+	&__form{
+		margin: 5.5rem auto 12rem;
+		padding: 0.2rem;
+		width: 65%;
+		background-color: #fff;
+		text-align: center;
+		padding: 0;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__search{
+		flex-basis: 65%;
+		padding: 2rem;
+		margin-left: 90px;
+		border: none;
+		outline: none;
+		::-webkit-input-placeholder {
+			color: #999;
+			font-size: 1.4rem;
+			letter-spacing: 3px;
+		}
+	}
+	&__btn{
+		flex-basis: 20%;
+		&--icon{
+			vertical-align: middle;
+			margin-left: 1.3rem;
+		}	
+
+	}
+}
+
+.logo{
+
+}
+
+.menu{
+	&__item{}
 }
