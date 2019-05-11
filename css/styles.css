@@ -552,7 +552,7 @@ body {
     cursor: pointer; }
 
 .places {
-  padding-top: 12rem;
+  padding: 12rem 0 15rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -587,10 +587,84 @@ body {
     font-size: 1.6rem;
     text-align: center;
     min-width: 225px;
-    padding: 20px 0; }
+    padding: 20px 0;
+    margin-top: 3rem; }
 
 .gradient-btn {
   /* IE10+ */
   background-image: -o-linear-gradient(40deg, #5474fd 40%, #496bfe 40%);
   background-image: linear-gradient(50deg, #5474fd 40%, #496bfe 40%);
   background-image: -ms-linear-gradient(50deg, #5474fd 40%, #496bfe 40%); }
+
+.icons {
+  background-color: #333333;
+  padding: 6rem 0 6rem; }
+  .icons__container {
+    background-image: url(../img/Shape.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 70%;
+    padding-top: 9rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+  .icons__item {
+    padding: 80px 0 0 0;
+    text-align: center;
+    background-color: #333333;
+    position: relative; }
+  .icons__wrapper {
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+    background-color: #333333;
+    border-radius: 50%; }
+  .icons__search {
+    background-image: url(../img/search.svg);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 0;
+    left: 50%; }
+  .icons__select {
+    background-image: url(../img/select.svg);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 0;
+    left: 50%; }
+  .icons__enjoy {
+    background-image: url(../img/enjoy.svg);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 0;
+    left: 50%; }
+  .icons__text {
+    font-family: 'Aleo',serif;
+    font-size: 3.6rem;
+    line-height: 1; }
+
+.spain {
+  width: 100%; }
