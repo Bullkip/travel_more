@@ -1,5 +1,5 @@
 @mixin tr{
-	transition: all .4s linear;
+	transition: all .5s linear;
 }
 
 @mixin myPos($top: 50%, $left: 50%, $tx:-50%,$ty:-50% ) {

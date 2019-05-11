@@ -14,7 +14,7 @@
 </head>
 <body>
 	<header class="section section--fullscreen section--bg" style=" background-image: url(img/section-1-bg.jpg);">
-		<div class="container container--header">
+		<div class="container header">
 			<h1 class="section__title section__title--h1">Bhromaon</h1>
 			<span class="section__subtitle">Safe Travel Anywhere</span>
 			<form class="section__form" action="">
@@ -27,24 +27,44 @@
 					</svg>
 				</button>
 			</form>
-			<span class="scroll">Scroll Down</span>
-			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15px" height="9px">
-				<path fill-rule="evenodd" fill="rgb(255, 255, 255)"
-					d="M4.125,4.651 L0.750,1.276 L1.594,0.432 L7.500,6.339 L13.406,0.362 L14.250,1.206 L7.500,8.026 L6.656,7.183 L4.125,4.651 Z" />
-			</svg>
+			<a class="scroll">
+				<span class="scroll__text">Scroll Down</span>
+				<svg class="scroll__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15px" height="9px">
+					<path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+						d="M4.125,4.651 L0.750,1.276 L1.594,0.432 L7.500,6.339 L13.406,0.362 L14.250,1.206 L7.500,8.026 L6.656,7.183 L4.125,4.651 Z" />
+				</svg>
+			</a>
 		</div>
-		<div class="container container--menu">
-			<a href="" class="logo">Bhromaon</a>
-			<ul class="menu">
-				<li class="menu_item"><a href="#">Who We Are</a></li>
-				<li class="menu_item"><a href="#">What We Do</a></li>
-				<li class="menu_item"><a href="#">Travel With Us</a></li>
-				<li class="menu_item"><a href="#">Contact Us</a></li>
-			</ul>
+		<div class="header__menu">
+			<div class="container  section__menu ">
+				<a href="" class="section__logo header__link">Bhromaon</a>
+					<ul class="section__navigation">
+						<li class="section__navigation-item"><a class="header__link header__link--menu" href="#">Who We Are</a></li>
+						<li class="section__navigation-item"><a class="header__link header__link--menu" href="#">What We Do</a></li>
+						<li class="section__navigation-item"><a class="header__link header__link--menu" href="#">Travel With Us</a></li>
+						<li class="section__navigation-item"><a class="header__link header__link--menu" href="#">Contact Us</a></li>
+					</ul>
+
+			</div>
 		</div>
 	</header>
 	<main>
-		<section></section>
+		<section class="section section--bg" style=" background-image: url(./img/section-2-bg.jpg);">
+			<div class="container places">
+				<div class="places__text-block">
+						<h2 class="section__title--h2">Why Choose Us</h2>
+						<p>Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, so
+							blinded by desire, that they cannot foresee </p>
+						<p>Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire,
+							that.</p>
+						<button class="places__btn gradient-btn">Explore Places</button>
+				</div>
+				<div class="places__img-block">
+					<img class="places__img" src="./img/place-2.jpg"alt="">
+					<img class="places__img" src="./img/place-1.jpg" alt="">
+				</div>
+			</div>
+		</section>
 		<section></section>
 		<section></section>
 		<section></section>
