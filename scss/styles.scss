@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Aleo|Josefin+Sans:300,400,700');
-
+@import url('https://fonts.googleapis.com/css?family=Aleo:400,700|Josefin+Sans:300,400,600,700');
 @import 'normalize';
 @import 'mixins';
 
@@ -29,7 +28,7 @@ body {
 }
 
 .section {
-	text-align: left;
+	text-align: center;
 	padding: 0px;
 	&--fullscreen{
 		min-height:100vh;
@@ -261,23 +260,34 @@ body {
 	&__img{
 		width: 80%;
 	}
-	&__btn{
-		border: none;
-		color: $text-color;
-		font-family: 'Aleo',serif;
-		text-transform: uppercase;
-		font-size: 1.6rem;
-		text-align: center;
-		min-width: 225px;
-		padding: 20px 0;
-		margin-top: 3rem;
+	// &__btn{
+	// 	border: none;
+	// 	color: $text-color;
+	// 	font-family: 'Aleo',serif;
+	// 	text-transform: uppercase;
+	// 	font-size: 1.6rem;
+	// 	text-align: center;
+	// 	min-width: 225px;
+	// 	padding: 20px 0;
+	// 	margin-top: 3rem;
 
 
-	}
+	// }
 }
 
 .gradient-btn {
-	
+	border: none;
+	color: $text-color;
+	font-family: 'Aleo',
+	serif;
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	text-align: center;
+	min-width: 225px;
+	padding: 20px 0;
+	margin-top: 3rem;
+
+
 	background-image: -webkit-linear-gradient(50deg, rgb(84, 116, 253) 40%, rgb(73, 107, 254) 40%);
 	/* IE10+ */
 	background-image: linear-gradient(50deg, rgb(84, 116, 253) 40%, rgb(73, 107, 254) 40%);
@@ -351,6 +361,83 @@ body {
 }
 
 .spain {
-	width: 100%;
-	
+	&__flex{
+		padding: 23rem 0 10rem;
+		display:flex;
+		&--left{
+			justify-content: flex-start;
+		}
+		&--right{
+			justify-content: flex-end;
+		}
+	}
+	&__article{
+	   background-color: rgba(45,40,39,.8);
+	   max-width: 520px;
+	   padding: 50px 20px 50px 20px;
+	}
+    &__title{
+		display: inline-block;
+		font-size: 2rem;
+		font-weight: 400;
+		margin-bottom: 35px;
+	}
+	&__header{
+		font-size: 2rem;
+		text-transform: uppercase;
+		font-weight: 400;
+		margin: 0 0 30px 0;
+	}
+	&__text{
+		font-weight: 300;
+		margin: 0;
+		text-align: left;
+	}
+}
+
+.reviews{
+	padding: 12rem 0 20rem;
+	&__header{
+		margin-top: 0;
+	}
+	&__block{
+		display: flex;
+		flex-direction: row;
+	}
+	&__photo{}
+	&__text{
+		text-align: start;
+		padding: 45px 0px 60px 60px;
+	}
+	&__text-title{
+		margin-top: 0;
+		font-size: 2rem;
+		text-transform: uppercase;
+		font-weight: 300;
+	}
+	&__text-cite{
+		margin: 0;
+		font-weight: 300;
+		font-style: normal;
+		position: relative;
+		&::first-letter{
+			padding-left: 23px;
+		}
+		&:before{
+			position: absolute;
+			top: -5px;
+			left: -5px;
+			font-family: Arial Black;
+			content: "\201c";
+			font-size: 4rem;
+			line-height: 0.2;
+			color: #5474fd;
+			
+		}
+	}
+}
+
+.footer{
+	background-color: #232323;
+
 }
