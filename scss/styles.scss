@@ -28,7 +28,7 @@ body {
 }
 
 .section {
-	text-align: center;
+	text-align: left;
 	padding: 0px;
 	&--fullscreen{
 		min-height:100vh;
@@ -439,5 +439,38 @@ body {
 
 .footer{
 	background-color: #232323;
+	padding: 12rem 0 5.5rem;
+	&__flex{
+		display: flex;
+		flex-direction: column;
+		max-width: 150px;
+	}
+	&__title{
+		font-size: 2.4rem;
+		text-decoration: none;
+		color: $text-color;
+		text-transform: uppercase;
+		font-weight: 700;
+		line-height: 1;
+		margin-bottom: 1rem;
+	}
+	&__subtitle{
+		display: inline-block;
+		font-weight: 300;
+		margin-bottom: 3rem;
+	}
+	&__icons{
+		display: flex;
+		justify-content: space-between;
+		}
+	&__icon{
+		color: $text-color;
+		transition: .5s ease-in-out;
+		&:hover,
+		&:focus,
+		&:active{
+			color: #5474fd
+		}
+	}
 
 }
