@@ -603,9 +603,6 @@ body {
   -webkit-transition: all .5s linear;
   -o-transition: all .5s linear;
   transition: all .5s linear; }
-  .gradient-btn:hover, .gradient-btn:focus, .gradient-btn:active {
-    -webkit-filter: blur(1px);
-    filter: blur(1px); }
 
 .icons {
   background-color: #333333;
