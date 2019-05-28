@@ -354,7 +354,7 @@ body {
       font-family: 'Aleo',serif;
       font-weight: 400; }
 
-.mainclass {
+.caption {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -366,7 +366,7 @@ body {
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
-.mainclass-main {
+.caption-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -377,12 +377,12 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
-  .mainclass-main__subtitle {
+  .caption-main__subtitle {
     font-size: 2.2rem;
     letter-spacing: 9px;
     margin-bottom: 5.5rem; }
 
-.mainclass-form {
+.caption-form {
   margin-bottom: 12rem;
   padding: 0.2rem;
   display: -webkit-box;
@@ -395,7 +395,7 @@ body {
   min-width: 500px;
   background-color: #fff;
   text-align: center; }
-  .mainclass-form__search {
+  .caption-form__search {
     display: inline-block;
     -ms-flex-preferred-size: 65%;
     flex-basis: 65%;
@@ -404,7 +404,7 @@ body {
     outline: none;
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis; }
-    .mainclass-form__search::-webkit-input-placeholder {
+    .caption-form__search::-webkit-input-placeholder {
       color: #999;
       font-size: 1.4rem;
       letter-spacing: 3px;
@@ -413,7 +413,7 @@ body {
       -webkit-transition: text-indent .4s ease-in-out;
       -o-transition: text-indent .4s ease-in-out;
       transition: text-indent .4s ease-in-out; }
-    .mainclass-form__search::-moz-placeholder {
+    .caption-form__search::-moz-placeholder {
       color: #999;
       font-size: 1.4rem;
       letter-spacing: 3px;
@@ -422,7 +422,7 @@ body {
       -webkit-transition: text-indent .4s ease-in-out;
       -o-transition: text-indent .4s ease-in-out;
       transition: text-indent .4s ease-in-out; }
-    .mainclass-form__search::-ms-input-placeholder {
+    .caption-form__search::-ms-input-placeholder {
       color: #999;
       font-size: 1.4rem;
       letter-spacing: 3px;
@@ -431,29 +431,29 @@ body {
       -webkit-transition: text-indent .4s ease-in-out;
       -o-transition: text-indent .4s ease-in-out;
       transition: text-indent .4s ease-in-out; }
-    .mainclass-form__search:focus::-webkit-input-placeholder {
+    .caption-form__search:focus::-webkit-input-placeholder {
       text-indent: 500px;
       -webkit-transition: text-indent .4s ease-in-out;
       -o-transition: text-indent .4s ease-in-out;
       transition: text-indent .4s ease-in-out; }
-    .mainclass-form__search:focus::-moz-placeholder {
+    .caption-form__search:focus::-moz-placeholder {
       text-indent: 500px;
       -webkit-transition: text-indent .4s ease-in-out;
       -o-transition: text-indent .4s ease-in-out;
       transition: text-indent .4s ease-in-out; }
-    .mainclass-form__search:focus:-moz-placeholder {
+    .caption-form__search:focus:-moz-placeholder {
       text-indent: 500px;
       -webkit-transition: text-indent .4s ease-in-out;
       -o-transition: text-indent .4s ease-in-out;
       transition: text-indent .4s ease-in-out; }
-    .mainclass-form__search:focus:-ms-input-placeholder {
+    .caption-form__search:focus:-ms-input-placeholder {
       text-indent: 500px;
       -webkit-transition: text-indent .4s ease-in-out;
       -o-transition: text-indent .4s ease-in-out;
       transition: text-indent .4s ease-in-out; }
-    .mainclass-form__search[type="search"]::-webkit-search-cancel-button {
+    .caption-form__search[type="search"]::-webkit-search-cancel-button {
       display: none; }
-  .mainclass-form__btn {
+  .caption-form__btn {
     display: inline-block;
     -ms-flex-preferred-size: 20%;
     flex-basis: 20%;
@@ -470,17 +470,17 @@ body {
     -webkit-transition: .4s ease-in-out;
     -o-transition: .4s ease-in-out;
     transition: .4s ease-in-out; }
-    .mainclass-form__btn:hover, .mainclass-form__btn:focus, .mainclass-form__btn:active {
+    .caption-form__btn:hover, .caption-form__btn:focus, .caption-form__btn:active {
       background-color: #FFF;
       color: #5474fd;
       border-color: #5474fd; }
-    .mainclass-form__btn-icon {
+    .caption-form__btn-icon {
       vertical-align: middle;
       margin-left: 1.3rem; }
-      .mainclass-form__btn-icon path {
+      .caption-form__btn-icon path {
         fill: currentColor; }
 
-.mainclass-scroll {
+.caption-scroll {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -494,17 +494,17 @@ body {
   -webkit-transition: all .5s linear;
   -o-transition: all .5s linear;
   transition: all .5s linear; }
-  .mainclass-scroll:hover, .mainclass-scroll:focus, .mainclass-scroll:active {
+  .caption-scroll:hover, .caption-scroll:focus, .caption-scroll:active {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
     transform: scale(1.2);
     cursor: pointer; }
 
-.mainclass-wrapper {
+.caption-wrapper {
   background-color: #5474fd; }
 
-.mainclass-menu {
+.caption-menu {
   padding: 21px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -520,23 +520,23 @@ body {
   -ms-flex-align: center;
   align-items: center; }
 
-.mainclass-link {
+.caption-link {
   text-decoration: none;
   color: #FFF;
   text-align: center;
-  -webkit-transition: .4s ease-in-out;
-  -o-transition: .4s ease-in-out;
-  transition: .4s ease-in-out; }
-  .mainclass-link:hover, .mainclass-link:focus, .mainclass-link:active {
-    color: #999; }
+  -webkit-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out; }
+  .caption-link:hover, .caption-link:focus, .caption-link:active {
+    color: #2c52fc; }
 
-.mainclass-logo {
+.caption-logo {
   font-size: 2.4rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 4px; }
 
-.mainclass-navigation {
+.caption-navigation {
   padding: 0;
   margin: 0;
   min-width: 47%;
@@ -554,7 +554,7 @@ body {
   font-family: 'Aleo', sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase; }
-  .mainclass-navigation__item {
+  .caption-navigation__item {
     margin: 0 20px; }
 
 .places {
@@ -603,6 +603,18 @@ body {
   -webkit-transition: all .5s linear;
   -o-transition: all .5s linear;
   transition: all .5s linear; }
+  .gradient-btn:hover, .gradient-btn:focus, .gradient-btn:active {
+    -webkit-transform: rotate(0deg) scale(1.1, 1.1);
+    -ms-transform: rotate(0deg) scale(1.1, 1.1);
+    -o-transform: rotate(0deg) scale(1.1, 1.1);
+    transform: rotate(0deg) scale(1.1, 1.1);
+    -webkit-box-shadow: 5px 5px 0px #d1c9c9;
+    box-shadow: 5px 5px 0px #d1c9c9;
+    -webkit-transition: z-index 300ms linear 0ms, -webkit-transform 300ms linear 0ms, -webkit-box-shadow 300ms linear 0ms;
+    transition: z-index 300ms linear 0ms, -webkit-transform 300ms linear 0ms, -webkit-box-shadow 300ms linear 0ms;
+    -o-transition: box-shadow 300ms linear 0ms, z-index 300ms linear 0ms, -o-transform 300ms linear 0ms;
+    transition: transform 300ms linear 0ms, box-shadow 300ms linear 0ms, z-index 300ms linear 0ms;
+    transition: transform 300ms linear 0ms, box-shadow 300ms linear 0ms, z-index 300ms linear 0ms, -webkit-transform 300ms linear 0ms, -o-transform 300ms linear 0ms, -webkit-box-shadow 300ms linear 0ms; }
 
 .icons {
   background-color: #333333;
@@ -725,9 +737,11 @@ body {
     flex-direction: row; }
   .reviews__photo {
     max-height: 70%;
-    max-width: 90%;
+    max-width: 70%;
     -ms-flex-preferred-size: 40%;
-    flex-basis: 40%; }
+    flex-basis: 40%;
+    -o-object-fit: cover;
+    object-fit: cover; }
   .reviews__text {
     text-align: start;
     padding: 45px 20px 60px 40px;
