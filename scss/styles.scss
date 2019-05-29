@@ -186,6 +186,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	flex: 1 0 auto;
 	@include tr ();
 
 	&:hover,
@@ -197,7 +198,7 @@ body {
 }
 .caption-wrapper{
 	background-color: #5474fd;
-}
+	}
 .caption-menu{
 	padding: 21px 0;
 	display: flex;
@@ -215,13 +216,20 @@ body {
 	&:active {
 		color: #2c52fc;
 	}
-	// &__menu{}
+	
 }
 .caption-logo{
 	font-size: 2.4rem;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 4px;
+	@include tr();
+	&:hover{
+		text-shadow: 0px 15px 3px rgba(0, 0, 0, 0.1),
+		10px 20px 5px rgba(0, 0, 0, 0.05),
+		-10px 20px 5px rgba(0, 0, 0, 0.05);
+	}
+		
 
 }
 .caption-navigation{
@@ -461,6 +469,13 @@ body {
 		font-weight: 700;
 		line-height: 1;
 		margin-bottom: 1rem;
+	
+		transition: .5s ease-in-out;
+		&:hover,
+		&:focus,
+		&:active {
+			color: #5474fd
+		}
 	}
 	&__subtitle{
 		display: inline-block;
