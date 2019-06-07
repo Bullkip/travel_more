@@ -64,9 +64,11 @@ body {
 .caption{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	
+	position: relative;
+
+
 }
+
 .caption-main{
 	display: flex;
 	flex-direction: column;
@@ -76,6 +78,8 @@ body {
 		letter-spacing: 9px;
 		margin-bottom: 5.5rem;
 	}
+
+
 }
 
 .caption-form{
@@ -195,10 +199,16 @@ body {
 		transform: scale(1.2);
 		cursor: pointer;
 	}
+
 }
 .caption-wrapper{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
 	background-color: #5474fd;
-	}
+	
+}
 .caption-menu{
 	padding: 21px 0;
 	display: flex;
@@ -323,6 +333,8 @@ body {
 		text-align: center;
 		background-color: #333333;
 		position: relative;
+		
+
 
 	}
 	&__wrapper{
@@ -331,7 +343,7 @@ body {
 		height: 10rem;
 		background-color: #333333;
 		border-radius: 50%;
-
+	
 	}
 	&__search{
 		background-image: url(../img/search.svg);

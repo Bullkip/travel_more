@@ -362,9 +362,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
+  position: relative; }
 
 .caption-main {
   display: -webkit-box;
@@ -505,6 +503,10 @@ body {
     cursor: pointer; }
 
 .caption-wrapper {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
   background-color: #5474fd; }
 
 .caption-menu {
